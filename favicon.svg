@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a55a"/>
+      <stop offset="100%" stop-color="#e6c980"/>
+    </linearGradient>
+  </defs>
+  <!-- Navy background circle -->
+  <circle cx="50" cy="50" r="48" fill="#0f1f3d"/>
+  <!-- Gold triangle outline (simplified A shape) -->
+  <path d="M 50 15 L 80 80 L 60 80 L 50 60 L 40 80 L 20 80 Z" fill="#0a1628" stroke="#c9a55a" stroke-width="2"/>
+  <!-- Inner gold accent -->
+  <path d="M 50 25 L 45 35 L 55 35 Z" fill="#e6c980"/>
+</svg>
