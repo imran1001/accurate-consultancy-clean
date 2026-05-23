@@ -1120,16 +1120,18 @@ const BookingForm = () => {
 /* ============================================================
    FOOTER
 ============================================================ */
-const Footer = ({ setActivePage }) => (
-  <footer className="bg-navy-deepest text-white pt-20 pb-8 relative overflow-hidden">
-    <div className="absolute inset-0 world-dots opacity-15" />
-    <div className="max-w-7xl mx-auto px-5 relative">
-      <div className="grid lg:grid-cols-12 gap-10 mb-12">
-        {/* Brand */}
-        <div className="lg:col-span-4">
-          <div className="mb-6">
-            <img 
-              src="/logo.png" 
+<div className="lg:col-span-4">
+  <div className="mb-6">
+    <img 
+      src="/logo.png" 
+      alt="Accurate Consultancy" 
+      className="h-20 md:h-24 w-auto object-contain"
+      style={{ filter: 'drop-shadow(0 0 12px rgba(201, 165, 90, 0.4))' }}
+    />
+  </div>
+  <p className="text-white/60 leading-relaxed mb-6 max-w-sm">
+    A premium global mobility consultancy — turning visa goals into approved realities through bespoke advisory for discerning clients across the world.
+  </p>
               alt="Accurate Consultancy" 
               className="h-16 w-auto object-contain"
             />
