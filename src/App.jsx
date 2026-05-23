@@ -211,10 +211,12 @@ const Navigation = ({ activePage, setActivePage, mobileOpen, setMobileOpen }) =>
           <button
             onClick={() => { setActivePage('home'); window.scrollTo({ top: 0 }); }}
             className="flex items-center gap-2 group"
-          ><img 
+       <img 
   src="/logo.png" 
   alt="Accurate Consultancy" 
   className="h-18 md:h-24 w-auto object-contain transition-transform group-hover:scale-105"
+  style={{ filter: 'drop-shadow(0 0 12px rgba(201, 165, 90, 0.4))' }}
+/>
 />"
             />
           </button>
