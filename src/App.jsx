@@ -216,8 +216,6 @@ const Navigation = ({ activePage, setActivePage, mobileOpen, setMobileOpen }) =>
   alt="Accurate Consultancy" 
   className="h-18 md:h-24 w-auto object-contain transition-transform group-hover:scale-105"
   style={{ filter: 'drop-shadow(0 0 12px rgba(201, 165, 90, 0.4))' }}
-/>
-/>"
             />
           </button>
 
