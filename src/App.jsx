@@ -219,7 +219,7 @@ const Navigation = ({ activePage, setActivePage, mobileOpen, setMobileOpen }) =>
     src="/logo.png" 
     alt="Accurate Consultancy" 
     className="h-18 md:h-24 w-auto object-contain transition-transform group-hover:scale-105"
-    style={{ filter: 'drop-shadow(0 0 12px rgba(201, 165, 90, 0.4))' }}
+    style={{ filter: 'drop-shadow(0 0 20px rgba(201, 165, 90, 0.8)) drop-shadow(0 0 40px rgba(201, 165, 90, 0.4))' }}
   />
 </button>
 
@@ -1126,7 +1126,7 @@ const BookingForm = () => {
       src="/logo.png" 
       alt="Accurate Consultancy" 
       className="h-20 md:h-24 w-auto object-contain"
-      style={{ filter: 'drop-shadow(0 0 12px rgba(201, 165, 90, 0.4))' }}
+      style={{ filter: 'drop-shadow(0 0 20px rgba(201, 165, 90, 0.8)) drop-shadow(0 0 40px rgba(201, 165, 90, 0.4))' }}
     />
   </div>
   <p className="text-white/60 leading-relaxed mb-6 max-w-sm">
