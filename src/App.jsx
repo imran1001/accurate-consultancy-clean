@@ -215,7 +215,7 @@ const Navigation = ({ activePage, setActivePage, mobileOpen, setMobileOpen }) =>
             <img 
               src="/logo.png" 
               alt="Accurate Consultancy" 
-              className="h-16 md:h-20 w-auto object-contain transition-transform group-hover:scale-105"
+              className="h-18 md:h-24 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </button>
 
