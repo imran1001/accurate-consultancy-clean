@@ -1132,13 +1132,7 @@ const BookingForm = () => {
   <p className="text-white/60 leading-relaxed mb-6 max-w-sm">
     A premium global mobility consultancy — turning visa goals into approved realities through bespoke advisory for discerning clients across the world.
   </p>
-              alt="Accurate Consultancy" 
-              className="h-16 w-auto object-contain"
-            />
-          </div>
-          <p className="text-white/60 leading-relaxed mb-6 max-w-sm">
-            A premium global mobility consultancy — turning visa goals into approved realities through bespoke advisory for discerning clients across the world.
-          </p>
+
           <div className="flex gap-3">
             {[Facebook, Instagram, Linkedin].map((Icon, i) => (
               <a
